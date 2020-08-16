@@ -1,33 +1,23 @@
-/* *{
-    height: 50px;
-    text-align: center;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-}
 
-body{
-    margin-top: 20%;
-    padding: 20%;
-} */
 * {
-    
     max-height: 100%;
     text-align: center;
-    /* margin-top: 30%; */
+ 
 }
 
 .first{
     display: flex;
     flex-direction: column;
     margin-top: 10%;
+    padding: -3%;
 
 }
 .circle{
     
-    width: 200px;
-    height: 200px;
-    /* border-width: 10px; */
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    border: 8px solid transparent;
     background:  #10bcf4;
     margin: 80px;
     margin-top: 3%;
@@ -98,67 +88,37 @@ footer{
 
 @media only screen and (min-width: 700px){
 
+   
     .circle{
     
         width: 300px;
         height: 300px;
-        /* border-width: 10px; */
         background:  #10bcf4;
-        /* margin: 250px; */
-        margin-top: 3%;
-        border-radius: 50%;
-        position: relative;
-      
-    }
-    
-    
-    ul{
-       width: 1000px;
-        top: 100%;
-        left: 100%;
-        padding: 70% 20px;
-        border-radius: 10px;
-        font-family: sans-serif;
-    }
-    footer{
-        padding: 50px;
-        background-color: white;
-        position: fixed;
-        bottom: 0;
-    }
-    
+        margin-left: 35%;
+        
 }
-@media only screen and (min-width: 1000px){
-    body{
-        max-width: 1000px;
+    
+
+ul li a{
+    text-decoration: none;
+    padding: 70px 70px 70px;
+    display: block;
+}
+
+ul li a .icon{
+    width: 20px;
+    height: 20px;
+    margin: 10 auto 30px;
+    overflow: hidden;
     }
 
-    .circle{
-    
-        width: 300px;
-        height: 300px;
-        /* border-width: 10px; */
-        background:  #10bcf4;
-        margin: 400px;
-        margin-top: 3%;
-        border-radius: 50%;
-        position: relative;
-    }
-    ul{
-        width: 1000px;
-         top: 100%;
-         left: 100%;
-         padding: 90% 30px;
-         border-radius: 10px;
-         font-family: sans-serif;
-     }
-     footer{
-         padding: 30px;
-         background-color: white;
-         position: fixed;
-         bottom: 0;
-         margin: 100px;
-     }
+footer{
+    padding: 30px;
+    margin-left: 40%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
 
 }
 
